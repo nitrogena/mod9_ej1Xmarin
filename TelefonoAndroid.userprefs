@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{BCB4A547-DFF2-4D04-816E-244E36382AD4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TelefonoAndroid/Traductor.cs">
+    <Files>
+      <File FileName="TelefonoAndroid/MainActivity.cs" Line="22" Column="4" />
+      <File FileName="TelefonoAndroid/Traductor.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TelefonoAndroid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+</Properties>
