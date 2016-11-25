@@ -1,0 +1,3 @@
+/Users/Infraestructura/Projects/TelefonoAndroid/TelefonoAndroid/obj/Release/MonoAndroid,Version=v6.0.AssemblyAttribute.cs
+/Users/Infraestructura/Projects/TelefonoAndroid/TelefonoAndroid/bin/Release/Xamarin.Android.Support.v4.dll
+/Users/Infraestructura/Projects/TelefonoAndroid/TelefonoAndroid/bin/Release/Xamarin.Android.Support.v7.AppCompat.dll

@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{BCB4A547-DFF2-4D04-816E-244E36382AD4}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TelefonoAndroid/Traductor.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TelefonoAndroid/MainActivity.cs">
     <Files>
-      <File FileName="TelefonoAndroid/MainActivity.cs" Line="22" Column="4" />
-      <File FileName="TelefonoAndroid/Traductor.cs" Line="1" Column="1" />
+      <File FileName="TelefonoAndroid/MainActivity.cs" Line="40" Column="2" />
+      <File FileName="TelefonoAndroid/Traductor.cs" Line="74" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

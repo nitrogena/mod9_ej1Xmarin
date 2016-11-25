@@ -1,0 +1,80 @@
+﻿using System;
+using System.Text;
+
+namespace TelefonoAndroid
+{
+	public class Traductor
+	{
+		public static class Traductor
+		{
+			public static string TraduceNumeroACadena(string num)
+			{
+				if (string.IsNullOrWhiteSpace(num)){
+					return "";
+				}
+				else {
+					num = num.ToUpperInvariant();
+				}
+				var nuevoNumero = new StringBuilder(); //concatenar cadena
+
+				foreach (var c in num)
+				{
+					if (" -0123456789".Contains(c))
+					{
+						nuevoNumero.Append(c);
+					}
+					else {
+						var resultado = TraduceNumeroACadena(c);
+						if (resultado != null)
+						{
+							nuevoNumero.Append(resultado);
+						}
+						
+					}
+						
+				}
+				return nuevoNumero.ToString();
+				
+			}
+		
+			static bool Contains(this string keyString, char c)
+			{
+				return keyString.IndexOf(c) >= 0;
+			}
+			static int? TraduceNumeroACadena(char c)
+			{
+				if ("ABC".Contains(c))
+				{
+					return 2;
+				}
+				if ("DEF".Contains(c))
+				{
+					return 3;
+				}
+				if ("GHI".Contains(c))
+				{
+					return 4;
+				}
+				if ("JKL".Contains(c))
+				{
+					return 5;
+				}
+				if ("MNO".Contains(c))
+				{
+					return 6;
+				}
+				if ("PQR".Contains(c))
+				{
+					return 7;
+				}
+				if ("STU".Contains(c))
+				{
+					return 8;
+				}
+				if ("UVW".Contains(c))
+				{
+					return 9;
+				}
+			}	
+	}
+}
